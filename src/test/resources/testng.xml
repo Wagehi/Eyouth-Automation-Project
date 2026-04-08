@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EYOUTH Automation Suite" verbose="1">
+
+    <test name="EYOUTH Tests">
+        <classes>
+            <class name="TestCases.Test_Case_1_Search_with_a_valid_keyword"/>
+            <class name="TestCases.Test_Case_2_Open_Course_Details"/>
+            <class name="TestCases.Test_Case_3_Open_Registration_Page"/>
+            <class name="TestCases.Test_Case_4_Register_With_Empty_Username"/>
+            <class name="TestCases.Test_Case_5_Login_With_Invalid_Credentials"/>
+            <class name="TestCases.Test_Case_6_Login_With_Empty_Fields"/>
+            <class name="TestCases.Test_Case_7_End_To_End"/>
+            <class name="TestCases.Test_Case_8_Verify_Facebook_Link"/>
+            <class name="TestCases.Test_Case_9_Verify_LinkedIn_Link"/>
+            <class name="TestCases.Test_Case_10_Verify_YouTube_Link"/>
+            <class name="TestCases.Test_Case_11_Verify_Course_Card_UI"/>
+        </classes>
+    </test>
+
+</suite>
